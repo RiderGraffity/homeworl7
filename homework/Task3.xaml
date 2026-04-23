@@ -1,0 +1,55 @@
+﻿<Window x:Class="Task3.MainWindow"
+     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+     Title="Task3"
+     Width="390"
+     Height="530"
+     Background="#E8E8E8"
+     ResizeMode="CanResizeWithGrip">
+    
+    <Grid Background="#E8E8E8">
+        
+        <Border Width="80" Height="95" Background="#3DA8B4"
+            HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBlock Text="Top&#10;Left" Foreground="White" FontSize="14"
+                   FontWeight="SemiBold" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Center" IsEnabled="False" LineHeight="30"/>
+        </Border>
+
+        <Border Width="110" Height="95" Background="#E8621A"
+            HorizontalAlignment="Center" VerticalAlignment="Top">
+            <TextBlock Text="Top&#10;Middle" Foreground="White" FontSize="14"
+                   FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,0" LineHeight="30"/>
+        </Border>
+
+        <Border Width="80" Height="95" Background="#3DA8B4"
+            HorizontalAlignment="Right" VerticalAlignment="Top">
+            <TextBlock Text="Top&#10;Right" Foreground="White" FontSize="14"
+                   FontWeight="SemiBold" Margin="10,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" LineHeight="30"/>
+        </Border>
+
+        <Border Width="110" Height="75" Background="#3DA8B4"
+            HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Center" Foreground="White" FontSize="14"
+                   FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+
+        <Border Width="80" Height="70" Background="#E8621A"
+            HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,80,0,0">
+            <TextBlock Text="Left" Foreground="White" FontSize="14"
+                   FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+
+        <Border Width="80" Height="70" Background="#E8621A"
+            HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,80,0,0">
+            <TextBlock Text="Right" Foreground="White" FontSize="14"
+                   FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+
+        <Border Height="75" Background="#3DA8B4"
+            HorizontalAlignment="Stretch" VerticalAlignment="Bottom">
+            <TextBlock Text="Bottom of Screen" Foreground="White" FontSize="14"
+                   FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+
+    </Grid>
+</Window>
